@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.linkpal.mapper.WeblogMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.linkpal.domain.entity.Weblog">
+        <result column="id" property="id" />
+        <result column="url" property="url" />
+        <result column="method" property="method" />
+        <result column="ip" property="ip" />
+        <result column="class_method" property="classMethod" />
+        <result column="args" property="args" />
+        <result column="reponse" property="reponse" />
+        <result column="creatime" property="creatime" />
+        <result column="browser" property="browser" />
+        <result column="version" property="version" />
+        <result column="System" property="System" />
+        <result column="TimeCost" property="TimeCost" />
+    </resultMap>
+
+</mapper>

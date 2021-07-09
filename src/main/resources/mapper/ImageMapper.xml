@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.linkpal.mapper.ImageMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.linkpal.domain.entity.Image">
+        <result column="imageurl" property="imageurl" />
+        <result column="invoiceTypeOrg" property="invoiceTypeOrg" />
+        <result column="InvoiceCode" property="InvoiceCode" />
+        <result column="InvoiceNum" property="InvoiceNum" />
+        <result column="PurchaserName" property="PurchaserName" />
+        <result column="PurchaserRegisterNum" property="PurchaserRegisterNum" />
+        <result column="PurchaserAddress" property="PurchaserAddress" />
+        <result column="PurchaserBank" property="PurchaserBank" />
+        <result column="SellerName" property="SellerName" />
+        <result column="SellerRegisterNum" property="SellerRegisterNum" />
+        <result column="SellerAddress" property="SellerAddress" />
+        <result column="SellerBank" property="SellerBank" />
+        <result column="AmountInWords" property="AmountInWords" />
+        <result column="AmountInFiguers" property="AmountInFiguers" />
+        <result column="Payee" property="Payee" />
+        <result column="Checker" property="Checker" />
+        <result column="NoteDrawer" property="NoteDrawer" />
+        <result column="id" property="id" />
+    </resultMap>
+
+</mapper>
