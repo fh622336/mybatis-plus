@@ -8,7 +8,7 @@
         <result column="name" property="name" />
     </resultMap>
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.linkpal.domain.entity.TableLog">
+    <resultMap id="BaseResultMapS" type="com.linkpal.domain.entity.TableLog">
         <result column="id" property="id" />
         <result column="name" property="name" />
     </resultMap>
