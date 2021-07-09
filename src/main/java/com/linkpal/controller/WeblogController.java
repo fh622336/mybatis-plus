@@ -66,7 +66,7 @@ public class WeblogController {
     public String showHome() {
         String name = SecurityContextHolder.getContext().getAuthentication().getName();
         logger.info("当前登陆用户：" + name);
-
+        System.err.println("test");
         return "home";
     }
 
